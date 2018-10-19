@@ -112,3 +112,13 @@
 /obj/item/weapon/reagent_containers/food/drinks/cans/sodawater/New()
 	. = ..()
 	reagents.add_reagent(/datum/reagent/drink/sodawater, 50)
+	
+	/obj/item/weapon/reagent_containers/food/drinks/cans/Gold Mine
+	name = "\Gold Mine"
+	desc = "It tastes like gold and dust"
+	icon_state = "gold_can"
+	center_of_mass = "x=16;y=10"
+/obj/item/weapon/reagent_containers/food/drinks/cans/goldmine/New()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/drink/goldmine, 60)
+
